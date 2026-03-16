@@ -5,17 +5,15 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>its aby - simple software </title>
+    <title>its aby</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-    
-    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com">
-    <!-- Favicons -->
-    <link href="assets/img/favicon2.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -23,199 +21,575 @@
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
+    <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
 
-            <div class="logo me-auto">
-                <!--<h1><a href="index.html">its aby</a></h1>-->
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-            </div>
+            <h1 class="logo me-auto"><a href="index.html"><img class="header-logo" src="assets/img/itsaby.png"></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
-            <nav id="navbar" class="navbar order-last order-lg-0">
+            <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero"><img src="assets/img/house.png"> home </a></li>
-                    <li><a class="nav-link scrollto" href="#features"><img src="assets/img/services.png"> services</a></li>
-                    <li><a class="nav-link scrollto" href="#contact"><img src="assets/img/contact.png"> contact</a></li>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#itsaby"><img class="nav-logo" src="assets/img/itsaby.png"></a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
-            <!--<div class="header-social-links d-flex align-items-center">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-            </div>-->
-
         </div>
     </header><!-- End Header -->
     <!-- ======= Hero Section ======= -->
-    <section id="hero">
+    <section id="hero" class="d-flex align-items-center">
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-                    <div>
-                        <h1>designing digital products that help grow businesses</h1>
-                        <h2>talented designers making bespoke sofwares</h2>
-                        <a href="#contact" class="btn-get-started scrollto">contact us</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                    <img src="assets/img/hero-img.png" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-
-    </section><!-- End Hero -->
-
-    <main id="main">
-
-        <!-- ======= Features Section ======= -->
-        <section id="features" class="features section-bg">
-            <div class="container">
-                <div class="section-title" data-aos="fade-up">
-                    <h2>services</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
-                        <ul class="nav nav-tabs flex-column">
-                            <li class="nav-item" data-aos="fade-up">
-                                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-                                    <h4><i class="bi bi-check-circle"></i>  software development</h4>
-                                    <p>creating bespoke software applications.</p>
-                                </a>
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                    <h1>Creating business value through intelligent solutions</h1>
+                    <div class="con-img">
+                        <ul class="con-img-ul">
+                            <li class="ftech-hov">
+                                <img class="hov  hov-l-w" src="assets/img/InsureTech-2.png" alt="">
+                                <img class="hov hov-l" src="assets/img/InsureTech 1.png" alt="">
+                                <p class="cha-col ">InsurTech</p>
                             </li>
-                            <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="100">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                                    <h4><i class="bi bi-check-circle"></i>  IT Consulting</h4>
-                                    <p>providing best and viable solutions.</p>
-                                </a>
+                            <li class="ftech-hov">
+                                <img class="hov hov-l-w" src="assets/img/Digital Learning 2.png" alt="">
+                                <img class="hov hov-l" src="assets/img/Digital Learning 1.png" alt="">
+                                <p class="cha-col">AI Powered</p>
                             </li>
-                            <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="200">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                                    <h4><i class="bi bi-check-circle"></i>  software training</h4>
-                                    <p>providing software development upskilling.</p>
-                                </a>
+                            <li class="ftech-hov">
+                                <img class="hov hov-l-w" src="assets/img/Immersive Tech 2.png" alt="">
+                                <img class="hov hov-l" src="assets/img/Immersive Tech 1.png" alt="">
+                                <p class="cha-col">Smart Products</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
-                        <div class="tab-content">
-                            <div class="tab-pane active show" id="tab-1">
-                                <figure>
-                                    <img src="assets/img/features-1.png" alt="" class="img-fluid">
-                                </figure>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+                            <div class="swiper-slide">
+                                <img src="assets/img/life-insurance.png" class="img-fluid slider-img animated" height="340" alt="">
                             </div>
-                            <div class="tab-pane" id="tab-2">
-                                <figure>
-                                    <img src="assets/img/features-2.png" alt="" class="img-fluid">
-                                </figure>
+
+                            <div class="swiper-slide">
+                                <img src="assets/img/insurance-2.png" class="img-fluid slider-img animated" height="341" alt="">
                             </div>
-                            <div class="tab-pane" id="tab-3">
-                                <figure>
-                                    <img src="assets/img/features-3.png" alt="" class="img-fluid">
-                                </figure>
+
+                            <div class="swiper-slide">
+                                <img src="assets/img/Health-insurance.png" class="img-fluid slider-img animated" height="341" alt="">
                             </div>
-                            <div class="tab-pane" id="tab-4">
-                                <figure>
-                                    <img src="assets/img/features-4.png" alt="" class="img-fluid">
-                                </figure>
+                        </div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+        <!-- ======= About Us Section ======= -->
+        <section id="about" class="about">
+            <div class="" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>About Us</h2>
+                </div>
+                <div class="medium-container">
+                    <div class="WhyEdelweiss-inner lg:flex lg:justify-between rounded-[207px] max-w-[250px] mx-auto md:max-w-[352px] lg:max-w-full">
+                        <div class="box w-full rounded-[50%] px-[18px] h-[250px] md:h-[352px] flex flex-col justify-center lg:max-w-[352px] box1">
+                            <div class="inner max-w-[240px] mx-auto">
+                                <div class="image mb-[15px] mx-auto w-[38px] h-[41px] lg:w-auto lg:h-[66px] max-w-[76px] flex justify-center items-center w-full rounded-[50%]">
+                                    <img class="group-img" src="assets/img/lean.png" alt="Group.png">
+                                </div>
+                                <p style="text-align: center;">
+                                    Our Applications are built for<br> <span class="font-medium lg:text-[32px] lg:leading-[35px]">industry specific use cases</span><br>that are rapidly deployable, often with days
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box w-full rounded-[50%] px-[18px] h-[250px] md:h-[352px] flex flex-col justify-center lg:max-w-[352px] box2">
+                            <div class="inner max-w-[240px] mx-auto">
+                                <div class="image mb-[15px] mx-auto w-[38px] h-[41px] lg:w-auto lg:h-[66px] max-w-[76px] flex justify-center items-center w-full rounded-[50%]">
+                                    <img class="group-img" src="assets/img/time.png" alt="Group.png">
+                                </div>
+                                <p style="text-align: center;">Our approach to Application Development is to<br> <span class="font-medium lg:text-[32px] lg:leading-[35px]">accelerate time to compliance</span><br>to business processes and flexible adaptation </p>
+                            </div>
+                        </div>
+                        <div class="box w-full rounded-[50%] px-[18px] h-[250px] md:h-[352px] flex flex-col justify-center lg:max-w-[352px] box3">
+                            <div class="inner max-w-[240px] mx-auto">
+                                <div class="image mb-[15px] mx-auto w-[38px] h-[41px] lg:w-auto lg:h-[66px] max-w-[76px] flex justify-center items-center w-full rounded-[50%]"><img class="group-img" src="assets/img/efficiency.png" alt="Group (2).png"></div>
+                                <p style="text-align: center;">Our Digital Solutions<br> <span class="font-medium lg:text-[32px] lg:leading-[35px]">enhance operational efficiencies</span><br>through robust design, integration, deployment and support capabilities.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- <div class="row content">
+                    <div class="col-lg-6 about-us-img">
+                      <p>
+                        We are a new age Insurtech company, resolutely committed to the development of contemporary
+                        and contextually tailored business-to-business (B2B) solutions that optimize the intricate value chain
+                        intrinsic to the insurance business. Our paramount focus is directed towards the creation of hyper-personalized solutions that not only align with the present demands but also anticipate the
+                        transformative trends shaping the future of work.
+                      </p>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 about-us-img">
+                      <img src="assets/img/about-us.png" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="row content">
+                        <div class="col-lg-6 pt-4 pt-lg-0 about-us-img">
+                          <img src="assets/img/insuretech.jpg" class="img-fluid" alt="">
+                          </div>
+                    <div class="col-lg-6 about-us-img">
+                      <p>
+                        Our approach centers on developing solutions that seamlessly integrate into the insurance
+                        landscape. These solutions not only streamline operations but also empower insurance professionals
+                        to leverage data-driven insights, automation, and intuitive interfaces for maximum efficiency within
+                        the evolving digital landscape. We prioritize scalability to ensure sustained growth and adaptability,
+                        bolstering resilience to navigate challenges and capitalize on opportunities.
+                      </p>
+                    </div>
+                    </div>
+                    <div class="row content">
+                  <div class="col-lg-6 about-us-img">
+                    <p>
+                      Efficiency is paramount in our solutions, achieved through meticulous analysis and optimizastion of
+                      the insurance value chain. By embracing innovative technologies and strategic insights, our solutions
+                      facilitate swift responses to market dynamics, regulatory shifts, and emerging trends, fostering a
+                      proactive stance in an ever-evolving industry. Upholding ethical practices, regulatory compliance, and
+                      data security, we build trust and lasting partnerships.
+                    </p>
+                  </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 about-us-img">
+                      <img src="assets/img/insurtech-1.jpg" class="img-fluid" alt="">
+                      </div>
+                </div> -->
             </div>
-        </section><!-- End Features Section -->
+        </section>
+        <!-- End About Us Section -->
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services team section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Services</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                            <h4><a href="">Insurance Claim Investigation System</a></h4>
+                            <p>
+                                Out flagship product – a system that transforms the way insurance claim, as
+                                well as underwriting, investigations are conducted today
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+                            <h4><a href="">System Support Services</a></h4>
+                            <ul>
+                                <li>Customised application development</li>
+                                <li>Application Management</li>
+                                <li>Application modernisation</li>
+                                <li>IT Operations</li>
+                                <li>Core Application Assurance</li>
+                                <li>Bespoke solutions for Financial Services & Retail</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="ribbon ribbon-top-right"><span>Under Development</span></div>
+                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+                            <h4><a href="">Group Insurance Lifecycle Management System</a></h4>
+                            <p>
+                                A system that will digitise the entire lifecycle of group insurance
+                                business – right from origination to underwriting to servicing to closure
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="ribbon ribbon-top-right"><span>Under Development</span></div>
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">Distribution Management System</a></h4>
+                            <p>
+                                A system for end-to-end lifecycle management for distributors and intermediaries.
+                                With multiple API integrations, and proprietory AI/ML models, this is poised to be
+                                the single-source-of-service for all distributors
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Services Section -->
+        <!-- ======= About its aby Section ======= -->
+        <section id="itsaby" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2><img class="icheckify-logo" src="assets/img/itsaby_white.png"></h2>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-6 pt-4 pt-lg-0 about-us-img">
+                        <img src="assets/img/health-insurence.jpg" style="justify-content: flex-start !important; align-items: flex-start !important;" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>
+                            The flagship system is the flagship system from <b>Its Aby</b> that disrupts the way insurance claim/underwriting
+                            investigations are conducted today. It is a new-age cutting-edge mobile/web system that
+                            enhances the insurance investigations by fostering objectivity and standardization. It is a system
+                            that brings in uniformity and accuracy in risk assessment across the board, with more effective
+                            outcomes.
+                        </p>
+                        <h3>Key features:</h3>
+                        <br>
+                        <div class="portfolio-details-slider swiper">
+                            <div class="swiper-wrapper align-items-center">
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="t-sec-thoughts">
+                                            <img class="services-cont" src="assets/img/feature-1.webp" width="100%">
+                                            <!-- <div class="thought-title">
+                                               <span>Sushma Raju</span>
+                                               <span>02 Sep 2020</span>
+                                               </div> -->
+                                            <div class="t-cont-thoughts">
+                                                <a href="">
+                                                    <p class="title1">Standardized templates for claim investigations.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="t-sec-thoughts">
+                                            <img class="services-cont" src="assets/img/feature2.jpg" width="100%">
+                                            <!-- <div class="thought-title">
+                                               <span>Sushma Raju</span>
+                                               <span>02 Sep 2020</span>
+                                               </div> -->
+                                            <div class="t-cont-thoughts">
+                                                <a href="">
+                                                    <p class="title1">Cases assigned to filed invesstigatiors on the basis of pre-defined logic.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="t-sec-thoughts">
+                                            <img class="services-cont" src="assets/img/feature3.png" width="100%">
+                                            <!-- <div class="thought-title">
+                                               <span>Sushma Raju</span>
+                                               <span>02 Sep 2020</span>
+                                               </div> -->
+                                            <div class="t-cont-thoughts">
+                                                <a href="">
+                                                    <p class="title1">Complete data security and confidentialy.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="t-sec-thoughts">
+                                            <img class="services-cont" src="assets/img/feature4.jpg" width="100%">
+                                            <!-- <div class="thought-title">
+                                               <span>Sushma Raju</span>
+                                               <span>02 Sep 2020</span>
+                                               </div> -->
+                                            <div class="t-cont-thoughts">
+                                                <a href="">
+                                                    <p class="title1">Offline first approach so it works even when there is no data connectivity.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="t-sec-thoughts">
+                                            <img class="services-cont" src="assets/img/feature5.png" width="100%">
+                                            <!-- <div class="thought-title">
+                                               <span>Sushma Raju</span>
+                                               <span>02 Sep 2020</span>
+                                               </div> -->
+                                            <div class="t-cont-thoughts">
+                                                <a href="">
+                                                    <p class="title1">Loads of security controls like biometric authentication, data encryption, security logs etc.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="t-sec-thoughts">
+                                            <img class="services-cont" src="assets/img/feature6.jpeg" width="100%">
+                                            <!-- <div class="thought-title">
+                                               <span>Sushma Raju</span>
+                                               <span>02 Sep 2020</span>
+                                               </div> -->
+                                            <div class="t-cont-thoughts">
+                                                <a href="">
+                                                    <p class="title1">Robust analytics and reporting engine to churn meaning insights.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="t-sec-thoughts">
+                                            <img class="services-cont" src="assets/img/feature7.jpg" width="100%">
+                                            <!-- <div class="thought-title">
+                                               <span>Sushma Raju</span>
+                                               <span>02 Sep 2020</span>
+                                               </div> -->
+                                            <div class="t-cont-thoughts">
+                                                <a href="">
+                                                    <p class="title1">AI/ML models to intuitively predict suspect frauds.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <!-- <ul>
+                          <li><i class="ri-check-double-line"></i>Standardized templates for claim investigations</li>
+                          <li><i class="ri-check-double-line"></i>Cases assigned to filed invesstigatiors on the basis of pre-defined logic</li>
+                          <li><i class="ri-check-double-line"></i>Complete data security and confidentialy</li>
+                          <li><i class="ri-check-double-line"></i>Offline first approach. So it works even when there is no data connectivity</li>
+                          <li><i class="ri-check-double-line"></i>Loads of security controls like biometric authentication, data encryption, security logs etc</li>
+                          <li><i class="ri-check-double-line"></i>Robust analytics and reporting engine to churn meaning insights</li>
+                          <li><i class="ri-check-double-line"></i>AI/ML models to intuitively predict suspect frauds</li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About its aby Section -->
+        <!-- ======= Team Section ======= -->
+
+        <section class="team-bullit-point" id="team">
+            <div class="section-title">
+                <h2>Team</h2>
+            </div>
+            <div class="medium-container">
+                <div class="Blogs-inner flex flex-col items-center lg:items-start lg:flex-row lg:justify-between overflow-hidden ">
+                    <div class="box">
+                        <div class="box-inner w-full text-center px-[10px]">
+                            <p class="mb-[12px] lg:mb-[16px] text-[16px] leading-[20px] lg:text-[22px] lg:leading-[26px] font-medium" style="text-align: center;">We are a <br> <span class="font-medium text-[22px] leading-[26px] lg:text-[32px] lg:leading-[35px]">team of skilled engineers, industry experts</span> <br>committed to driving innovation and excellence for our clients</p>
+                            <div class="image text-center w-[52px] lg:w-[auto] mx-auto visible-hidden "><img src="https://cms.hizuno.com/uploads/winner_1_c480c5be9d.png" alt="winner 1.png"></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-inner w-full text-center px-[10px]">
+                            <p class="mb-[12px] lg:mb-[16px] text-[16px] leading-[20px] lg:text-[22px] lg:leading-[26px] font-medium" style="text-align: center;">Promoted by <br> <span class="font-medium text-[22px] leading-[26px] lg:text-[32px] lg:leading-[35px]">accomplished professionals from BFSI and Tech space </span> <br>with a collective experience of 50+ years</p>
+                            <div class="image text-center w-[52px] lg:w-[auto] mx-auto visible-hidden "><img src="https://cms.hizuno.com/uploads/winner_1_c480c5be9d.png" alt="winner 1.png"></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-inner w-full text-center px-[10px]">
+                            <p class="mb-[12px] lg:mb-[16px] text-[16px] leading-[20px] lg:text-[22px] lg:leading-[26px] font-medium" style="text-align: center;"><span class="font-medium text-[22px] leading-[26px] lg:text-[32px] lg:leading-[35px]">Mentored by domain experts from Insurance and Tech space</span> <br>with a collective experience of 40+ years</p>
+                            <div class="image text-center w-[52px] lg:w-[auto] mx-auto visible-hidden "><img src="https://cms.hizuno.com/uploads/winner_1_c480c5be9d.png" alt="winner 1.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team section-bg">
+            <div class="container" data-aos="fade-up">
+                <!-- <ul class="team-points">
+                  <li>We are a dynamic ensemble of 15 skilled and experienced professionals, all committed to driving innovation and excellence</li>
+                  <li>Promoted by four accomplished professionals from Tech and BFSI space, with collective experience of over 100 years</li>
+                  <li>Mentored by two deep domain experts with collective experience of over 40 years in Insurance and Tech solution</li>
+                </ul> -->
+                <div class="row team-row member-wrapper">
+                    <div class="col-lg-3 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="member member-row-secter d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/azy.png" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Ajeet Tiwari</h4>
+                                <span class="team-position">Co-founder</span>
+                                <p>A tech entrepreneur, with 20+ years experience in running a successful tech enterprise, having launched and incubated successful startups</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row team-row  member-wrapper">
+                    <div class="col-lg-20 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="member   member-row-secter  d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/binay.png" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Binay</h4>
+                                <span class="team-position">Chief Technology Officer</span>
+                                <p>An IIT Kharagpur alumni with vast experience of working across Banking and Automotive companies in India, USA, Australia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-20 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="member  member-row-secter  d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/rishi (1).png" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Rishi</h4>
+                                <span class="team-position">Chief Architect</span>
+                                <p>Adept in system modelling/designing including ML/AI/NLP and a Master's degree from the prestigious University of Bonn</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-20 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="member  member-row-secter  d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/divya.png" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Divya</h4>
+                                <span class="team-position">Lead System Analyst</span>
+                                <p>Deep domain expertise in requirement analysis, system automation and quality assurance</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-20 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="member  member-row-secter  d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/sujeet.png" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Sujeet</h4>
+                                <span class="team-position">Senior Product Engineer</span>
+                                <p>An avid practitioner of quality and growth, having built successful tech teams</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-20 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="member  member-row-secter  d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/vandana.png" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Vandana</h4>
+                                <span class="team-position">Senior Data Engineer</span>
+                                <p>Hands-on experience of creating and running BI and system design models</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Team Section -->
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
 
-                <div class="section-title" data-aos="fade-up">
-                    <h2>contact us</h2>
+                <div class="section-title">
+                    <h2>Contact</h2>
                 </div>
 
                 <div class="row">
 
-                    <div style="border:1px solid;" class="company-address-map col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.876980486498!2d145.16279531526473!3d-37.83976574330468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad63f3ea123d939%3A0x69ac04c7de00532e!2sUnit%202%2F94%20Mahoneys%20Rd%2C%20Forest%20Hill%20VIC%203131!5e0!3m2!1sen!2sau!4v1630317666716!5m2!1sen!2sau" frameborder="1" style="border:1px; width: 100%; height: 350px;" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="100">
-                        <div class="contact-about">
-                            <!--<h3>its aby</h3>-->
-                            <div class="logo me-auto">
-                                <!--<h1><a href="index.html">its aby</a></h1>-->
-                                <!--<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-                            </div>
-                            <!--<div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>-->
-                        </div>
+                    <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
                         <div class="info">
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
-                                <h4>location:</h4>
-                                <p>2/94 Mahoneys Road Forest Hill VIC 3131</p>
+                                <h4>Location:</h4>
+                                <p>
+                                    Address:
+                                    <br>2 94 Mahoneys Road, Forest Hill, VIC 313
+                                    <br>Australia
+                                </p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
-                                <h4>email:</h4>
-                                <p><a href="mailto:its.aby@email.com"> its.aby@email.com</a></p>
+                                <h4>Email:</h4>
+                                <p><a href="mailto:its.aby@email.com">its.aby@email.com</a></p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
-                                <h4>call:</h4>
-                                <p>+61 432 854 196</p>
+                                <h4>Call:</h4>
+                                <p><a href="tel:+ 61 432 854 196">+ 61 432 854 196</a></p>
                             </div>
-
-
                         </div>
-
                     </div>
 
+                    <div class="col-lg-5 col-md-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.876980486498!2d145.16279531526473!3d-37.83976574330468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad63f3ea123d939%3A0x69ac04c7de00532e!2sUnit%202%2F94%20Mahoneys%20Rd%2C%20Forest%20Hill%20VIC%203131!5e0!3m2!1sen!2sau!4v1630317666716!5m2!1sen!2sau" style="border:1px; width: 100%; height: 350px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </section><!-- End Contact Section -->
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-6 text-lg-left text-center">
-                    <div class="copyright">
-                        &copy; copyright 2021.<strong>its aby</strong>. all rights reserved
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3 class="logo me-auto"><a href="index.html"><img src="assets/img/itsaby_bottom.png"></a></h3>
+                        <p>
+                            Its Aby Pty Ltd <br>
+                            2 94 Mahoneys Road  <br>
+                            Forest Hill, Victoria – 3131 <br>
+                            <strong>Phone:</strong> <a href="tel:+ 61 432 854 196">+ 61 432 854 196</a><br>
+                            <strong>Email:</strong> <a href="mailto:its.aby@email.com">its.aby@email.com</a><br>
+                        </p>
                     </div>
-                    <!--<div class="credits">
-                        Designed by <a href="http://itsaby.com.au/">its aby</a>
-                    </div>-->
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a class="scrollto" href="#itsaby"><img class="icheckify-logo-footer" src="assets/img/itsaby_bottom.png"></a></li>
+                            <li><i class="bx bx-chevron-right"></i><a class="scrollto" href="#team">Team</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a class="scrollto" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-                        <a href="#hero" class="scrollto">home</a>
-                        <a href="#features" class="scrollto">services</a>
-                        <a href="#contact" class="scrollto">contact</a>
-                    </nav>
-                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span><img class="icheckify-logo-copy-right" src="assets/img/itsaby.png"></span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
             </div>
         </div>
     </footer><!-- End Footer -->
 
+    <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
@@ -223,12 +597,14 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
     <!-- Template Main JS File -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
     <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
